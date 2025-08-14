@@ -1,0 +1,148 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: white;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+  color: black;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav img {
+  width: 20vw;
+}
+footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 2100px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  font-size: 34px;  
+}
+header{
+  background-color: white;
+}
+main{
+background-color: #146514;
+height: 80vh;
+}
+#informatie{
+  margin-left: 1100px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+ 
+}
+h1{
+  color: goldenrod;
+  font-size: 80px;
+  text-shadow: gray;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropbtn{
+  background-color: white;
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content a{
+  color: black;
+  padding: 0px 16px;
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropbtn{
+  background-color: #3e8e41;
+}
+.dropdown-content{
+  font-size: 15px;
+  text-align: center;
+  display: none;
+}
+#bsa{
+  color: white;
+  font-size: 80px;
+  text-shadow: gray;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bsainfo{
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+  #voorfoto{
+    color: white;
+    font-size: 80px;
+    text-shadow: gray;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #bsainfo1{
+      color: white;
+      font-size: 50px;
+  }
+
+form
+{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#Formeliernaam{
+  color: black;
+  font-size: 60px;
+  text-shadow: gray;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#paragraafOuderavond{
+  font-size: 20px;
+  color: white;
+}
